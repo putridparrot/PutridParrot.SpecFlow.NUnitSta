@@ -31,7 +31,6 @@ namespace PutridParrot.SpecFlow.NUnitSta
             var codeAttributeDeclaration =
                 new CodeAttributeDeclaration("NUnit.Framework.Apartment", new CodeAttributeArgument(codeFieldReference));
             generationContext.TestClass.CustomAttributes.Add(codeAttributeDeclaration);
-            //UpdateAttributes(generationContext.TestClass);
         }
 
         public void SetTestClassCategories(TestClassGenerationContext generationContext, IEnumerable<string> featureCategories)
