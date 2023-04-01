@@ -1,7 +1,7 @@
 ﻿<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>PutridParrot.SpecFlow.NUnitSta</id>
-    <version>1.0.1</version>
+    <version>1.0.0-alpha</version>
     <title>PutridParrot.SpecFlow.NUnitSta</title>
     <authors>PutridParrot</authors>
     <owners>PutridParrot</owners>
@@ -20,9 +20,9 @@
     <file src="build\**\*" target="build"/>
 
     
-    <file src="bin\$config$\net472\PutridParrot.SpecFlow.NUnitSta.*" target="build\net471"/>
-    <file src="bin\$config$\netcoreapp2.1\PutridParrot.SpecFlow.NUnitSta.dll" target="build\netcoreapp2.1"/>
-    <file src="bin\$config$\netcoreapp2.1\PutridParrot.SpecFlow.NUnitSta.pdb" target="build\netcoreapp2.1"/>
+    <file src="bin\$config$\net472\PutridParrot.SpecFlow.NUnitSta.*" target="build\net472"/>
+    <file src="bin\$config$\netcoreapp2.1\PutridParrot.SpecFlow.NUnitSta.dll" target="build\netcoreapp3.1"/>
+    <file src="bin\$config$\netcoreapp2.1\PutridParrot.SpecFlow.NUnitSta.pdb" target="build\netcoreapp3.1"/>
 
 
   </files>
