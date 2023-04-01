@@ -6,7 +6,10 @@
     <authors>Mark Timmings</authors>
     <owners>PutridParrot</owners>
     <description>This is a SpecFlow Plugin to add ApartmentState.STA to classes</description>
-    <summary></summary>
+    <summary>For some forms of UI automation testing using SpecFlow, we need
+    to mark NUnit as STA thread model. This package simply does this as part of the 
+    SpecFlow code generations - it's all or nothing approach, i.e. we simple set this attribute
+    on every class generated.</summary>
     <language>en-GB</language>
 	<icon>PutridParrot.SpecFlow.NUnitSta.png</icon>
     
