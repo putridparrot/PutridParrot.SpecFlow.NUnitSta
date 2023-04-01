@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net472;netcoreapp2.1</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <NuspecFile>$(MSBuildThisFileDirectory)PutridParrot.SpecFlow.NUnitSta.nuspec</NuspecFile>
+    <AssemblyName>PutridParrot.SpecFlow.NUnitSta</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SpecFlow.CustomPlugin" Version="*" />
+  </ItemGroup>
+
+
+</Project>
