@@ -7,11 +7,11 @@ using System.Threading;
 
 namespace PutridParrot.SpecFlow.NUnitSta
 {
-    public class NUnit3WithGlobalTestGeneratorProvider : IUnitTestGeneratorProvider
+    public class NUnit3StaGeneratorProvider : IUnitTestGeneratorProvider
     {
         private readonly IUnitTestGeneratorProvider _unitTestGeneratorProvider;
 
-        public NUnit3WithGlobalTestGeneratorProvider(CodeDomHelper codeDomHelper)
+        public NUnit3StaGeneratorProvider(CodeDomHelper codeDomHelper)
         {
             _unitTestGeneratorProvider = new NUnit3TestGeneratorProvider(codeDomHelper);
         }

@@ -16,7 +16,7 @@ namespace PutridParrot.SpecFlow.NUnitSta
             generatorPluginEvents.CustomizeDependencies += (sender, args) =>
             {
                 args.ObjectContainer
-                    .RegisterTypeAs<NUnit3WithGlobalTestGeneratorProvider, IUnitTestGeneratorProvider>();
+                    .RegisterTypeAs<NUnit3StaGeneratorProvider, IUnitTestGeneratorProvider>();
             };
         }
     }
