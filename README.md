@@ -1,7 +1,7 @@
 # PutridParrot.SpecFlow.NUnitSta
 
 
-[![Build PutridParrot.SpecFlow.NUnitSta](https://github.com/putridparrot/PutridParrot.SpecFlow.NUnitSta/actions/workflows/dotnet-core.yml/badge.svg)](https://github.com/putridparrot/PutridParrot.SpecFlow.NUnitSta/actions/workflows/build.yml)
+[![Build PutridParrot.SpecFlow.NUnitSta](https://github.com/putridparrot/PutridParrot.SpecFlow.NUnitSta/actions/workflows/build.yml/badge.svg)](https://github.com/putridparrot/PutridParrot.SpecFlow.NUnitSta/actions/workflows/build.yml)
 [![NuGet version (PutridParrot.SpecFlow.NUnitSta)](https://img.shields.io/nuget/v/PutridParrot.SpecFlow.NUnitSta.svg?style=flat-square)](https://www.nuget.org/packages/PutridParrot.SpecFlow.NUnitSta/)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/putridparrot/PutridParrot.SpecFlow.NUnitSta/blob/master/LICENSE.md)
 [![GitHub Releases](https://img.shields.io/github/release/putridparrot/PutridParrot.SpecFlow.NUnitSta.svg)](https://github.com/putridparrot/PutridParrot.SpecFlow.NUnitSta/releases)
